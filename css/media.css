@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  /* Hero */
+  .hero .container h1 {
+    font-size: 48px;
+  }
+  .hero .container .hero-btns .btn {
+    width: fit-content;
+  }
+  /* Vedio */
+  .vedio .container iframe {
+    height: 500px;
+  }
+  /* Contact */
+  .contact .container form div {
+    width: calc(50% - 10px);
+  }
+  .contact .container form div:nth-child(7) {
+    width: 100%;
+  }
+  /* Researchers */
+  .researchers .container .content .btn {
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  /* Hero */
+  .hero .container .hero-content {
+    width: 688px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  /* Researchers */
+  .researchers .container .image {
+    display: block;
+  }
+  .researchers .container .content {
+    max-width: 600px;
+  }
+}
